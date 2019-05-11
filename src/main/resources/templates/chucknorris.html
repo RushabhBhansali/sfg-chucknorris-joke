@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>chuch Norris Jokes</title>
+</head>
+<body>
+<h1>Random Chuck Norris Joke</h1>
+
+<table>
+    <tr>
+        <th>THE JOKE</th>
+    </tr>
+    <td th:text="${chucknorris.getJoke()}">< /td>
+</table>
+
+</body>
+</html>
